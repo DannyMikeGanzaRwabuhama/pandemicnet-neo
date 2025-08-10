@@ -1,0 +1,5 @@
+{"name": "Alice Johnson", "email": "alice@example.com", "clerkId": "user_1", "joinedAt": 1723180000000}
+{"name": "Brian Smith", "email": "brian@example.com", "clerkId": "user_2", "joinedAt": 1723183600000}
+{"name": "Carla Mendez", "email": "carla@example.com", "clerkId": "user_3", "joinedAt": 1723187200000}
+{"name": "David Kim", "email": "david@example.com", "clerkId": "user_4", "joinedAt": 1723190800000}
+{"name": "Elena Novak", "email": "elena@example.com", "clerkId": "user_5", "joinedAt": 1723194400000}

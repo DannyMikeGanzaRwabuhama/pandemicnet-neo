@@ -1,7 +1,8 @@
 import type {Metadata} from "next";
 import "./globals.css";
 import React from "react";
-import {ThemeProvider} from "@/components/theme-provider";
+import {ThemeProvider} from "@/providers/theme-provider";
+import {ConvexClientProvider} from "@/providers/convex-client-provider";
 
 export const metadata: Metadata = {
     title: "PandemicNet",
@@ -16,14 +17,16 @@ export default function RootLayout({
     return (
         <html lang="en" suppressHydrationWarning>
         <body>
-        <ThemeProvider
-            attribute={"class"}
-            defaultTheme={"system"}
-            enableSystem
-            disableTransitionOnChange
-        >
-            {children}
-        </ThemeProvider>
+        <ConvexClientProvider>
+            <ThemeProvider
+                attribute={"class"}
+                defaultTheme={"system"}
+                enableSystem
+                disableTransitionOnChange
+            >
+                {children}
+            </ThemeProvider>
+        </ConvexClientProvider>
         </body>
         </html>
     );

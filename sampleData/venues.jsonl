@@ -1,0 +1,5 @@
+{"name": "Cafe Horizon", "location": "Downtown", "latitude": -1.944072, "longitude": 30.061885, "qrCodeId": "VENUE-001", "createdAt": 1723180000000}
+{"name": "Greenfield Library", "location": "City Center", "latitude": -1.942314, "longitude": 30.058202, "qrCodeId": "VENUE-002", "createdAt": 1723183600000}
+{"name": "Blue Lagoon Gym", "location": "East District", "latitude": -1.950202, "longitude": 30.070104, "qrCodeId": "VENUE-003", "createdAt": 1723187200000}
+{"name": "Sunrise Cinema", "location": "West End", "latitude": -1.948430, "longitude": 30.049931, "qrCodeId": "VENUE-004", "createdAt": 1723190800000}
+{"name": "TechHub Coworking", "location": "Innovation Park", "latitude": -1.952089, "longitude": 30.056410, "qrCodeId": "VENUE-005", "createdAt": 1723194400000}
