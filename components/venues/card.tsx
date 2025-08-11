@@ -1,7 +1,7 @@
 import React from 'react';
 import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@/components/ui/card";
 
-// Define the type for the venue prop
+// Define the type for the venues prop
 interface VenueCardProps {
     name: string;
     location?: string;
