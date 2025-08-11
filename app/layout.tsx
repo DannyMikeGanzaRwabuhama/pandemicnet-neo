@@ -9,9 +9,9 @@ export const metadata: Metadata = {
     description: "Mapping the Spread & Saving Lives",
 };
 
-export default function RootLayout({
-                                       children,
-                                   }: Readonly<{
+export default async function RootLayout({
+                                             children,
+                                         }: Readonly<{
     children: React.ReactNode;
 }>) {
     return (
@@ -24,7 +24,7 @@ export default function RootLayout({
                 enableSystem
                 disableTransitionOnChange
             >
-                {children}
+                    {children}
             </ThemeProvider>
         </ConvexClientProvider>
         </body>
