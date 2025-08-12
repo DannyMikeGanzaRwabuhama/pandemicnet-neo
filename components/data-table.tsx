@@ -83,7 +83,7 @@ export const columns: ColumnDef<Payment>[] = [
             <Checkbox
                 checked={row.getIsSelected()}
                 onCheckedChange={(value) => row.toggleSelected(!!value)}
-                aria-label={"Selected row"}
+                aria-label={"Select row"}
             />
         ),
         enableSorting: false,
@@ -145,7 +145,6 @@ export const columns: ColumnDef<Payment>[] = [
                         <DropdownMenuSeparator/>
                         <DropdownMenuItem>View customer</DropdownMenuItem>
                         <DropdownMenuItem>View payment details</DropdownMenuItem>
-                        <DropdownMenuItem></DropdownMenuItem>
                     </DropdownMenuContent>
                 </DropdownMenu>
             )
