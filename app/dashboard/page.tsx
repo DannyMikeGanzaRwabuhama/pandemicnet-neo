@@ -1,8 +1,9 @@
 import React from 'react'
+import {LiveActivityFeed} from "@/components/live-activity-feed";
 
 const DashboardPage = () => {
     return (
-        <div>DashboardPage</div>
+        <LiveActivityFeed />
     )
 }
 export default DashboardPage

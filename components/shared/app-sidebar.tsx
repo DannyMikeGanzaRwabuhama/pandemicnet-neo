@@ -1,6 +1,6 @@
 "use client";
 
-import {Building, Calendar, Home, UsersIcon} from "lucide-react"
+import {Building, Calendar, Home, Scan, UsersIcon} from "lucide-react"
 import Link from "next/link"
 import {usePathname} from "next/navigation"
 
@@ -21,6 +21,11 @@ const items = [
         title: "Home",
         url: "/dashboard",
         icon: Home,
+    },
+    {
+        title: "Scan",
+        url: "/dashboard/scan",
+        icon: Scan,
     },
     {
         title: "User Management",

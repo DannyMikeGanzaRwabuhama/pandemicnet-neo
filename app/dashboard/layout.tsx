@@ -4,7 +4,8 @@ import {Separator} from "@/components/ui/separator";
 import ThemeToggle from "@/components/shared/theme-toggle";
 import {AppSidebar} from "@/components/shared/app-sidebar";
 import {cookies} from "next/headers";
-import NavBreadCrumb from "@/components/nav-bread-crumb";
+import NavBreadCrumb from "@/components/shared/nav-bread-crumb";
+import {Toaster} from "@/components/ui/sonner";
 
 const DashboardLayout = async ({children}: { children: React.ReactNode }) => {
     const cookieStore = await cookies();
@@ -28,6 +29,7 @@ const DashboardLayout = async ({children}: { children: React.ReactNode }) => {
                         <ThemeToggle/>
                     </header>
                     <div className={"container mx-auto"}>
+                        <Toaster />
                         {children}
                     </div>
                 </div>
